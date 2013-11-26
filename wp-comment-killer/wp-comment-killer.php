@@ -44,4 +44,3 @@
  add_filter('pings_open', 'ss_wpck_return_false', 1000);
  
  ?>
- 
