@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Comment Killer
- * Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+ * Plugin URI: https://github.com/scottswezey/WP-Comment-Killer
  * Description: Install to stop all comments and pingbacks. Uninstall to revert to normal settings.
  * Version: 1.0.0
  * Author: Scott Swezey

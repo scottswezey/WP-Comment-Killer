@@ -28,6 +28,9 @@ This is only intended for when a site is under attack by comment spam. No more c
 = What if I never want to get comments? =
 You should configure your site correctly. This can help until you do that.
 
+= Help? =
+See https://github.com/scottswezey/WP-Comment-Killer -- Open an issue.
+
 == Changelog ==
 = 1.0.0 =
 * Initial release.
