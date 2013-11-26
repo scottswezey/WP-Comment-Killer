@@ -6,7 +6,11 @@
   require( dirname(__FILE__) . '/../../../wp-admin/includes/plugin.php' );
 
   // Actually activate the plugin
-  activate_plugin('wp-comment-killer/wp-comment-killer.php', '', true);
+  if ( is_multisite() ) {
+    activate_plugin('wp-comment-killer/wp-comment-killer.php', '', true); //multi-sites
+  } else {
+    activate_plugin('wp-comment-killer/wp-comment-killer.php', '', false); //single sites
+  }
 
   //Show that it worked
   wp_die('If you see this, installation should have worked and be complete.');
