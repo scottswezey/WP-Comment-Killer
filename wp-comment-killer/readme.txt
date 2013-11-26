@@ -1,7 +1,7 @@
 === WP Comment Killer ===
 Contributors: ScottSwezey
 Tags: Comments, Spam
-Requires at least: 3.7
+Requires at least: 3.5
 Tested up to: 3.7
 Stable tag: trunk
 License: MIT
@@ -15,13 +15,10 @@ Designed for use when a site is under attack by comment spam bots. Installing th
 This plugin doesn't modify your database in any way. Disable or remove it to revert your site to normal comment functionality.
 
 == Installation ==
-1. Install via WordPress admin area, or wp-cli.
-1. Or install manually by putting the files in the right place (plugin dir).
+1. Install via WordPress admin area.
+1. Or install manually by putting the files in the right place (plugin dir), then calling the manual-force-activation.php script over the web or via CLI with user level permissions.
 
 == Frequently Asked Questions ==
-= wp-cli? =
-See http://wp-cli.org/
-
 = Why? =
 This is only intended for when a site is under attack by comment spam. No more comments will be accepted with the installed and active.
 
@@ -32,11 +29,15 @@ You should configure your site correctly. This can help until you do that.
 See https://github.com/scottswezey/WP-Comment-Killer -- Open an issue.
 
 = WP Network installs? =
-I have done limited testing with this plugin "network activated." It seemed to work for my testing. Please open an issue if you encounter a situation where it does not. Be sure the plugin is activated for the site in question, first.
+Testing on single site and network configurations seem to work without issue. Please open an issue on github if you see differently.
 
 = I didn't install this =
 Your web host may have. Check with them, and contact them for support. That said, this is easy to disable and remove if you've fixed your spam bot issue.
 
 == Changelog ==
+
+= 1.1.0 =
+* Significant improvements to quick activator script.
+
 = 1.0.0 =
 * Initial release.
