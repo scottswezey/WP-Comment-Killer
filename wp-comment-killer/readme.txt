@@ -32,7 +32,7 @@ See https://github.com/scottswezey/WP-Comment-Killer -- Open an issue.
 Testing on single site and network configurations seem to work without issue. Please open an issue on github if you see differently.
 
 = I didn't install this =
-Your web host may have. Check with them, and contact them for support. That said, this is easy to disable and remove if you've fixed your spam bot issue.
+Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
 
 == Changelog ==
 
