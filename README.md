@@ -13,6 +13,9 @@ WP-Comment-Killer is a WordPress plugin that was built for when a site is under 
 # Uninstalling
 The script can only be deactivated through wp-admin. That said, it makes no changes to the DB, and can be safely renamed before removing it entirely.
 
+## Didn't install this on your site?
+Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
+
 # Etc
 
 ## Authors and Contributors
