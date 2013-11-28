@@ -29,7 +29,7 @@ You should configure your site correctly. This can help until you do that.
 See https://github.com/scottswezey/WP-Comment-Killer -- Open an issue.
 
 = WP Network installs? =
-Testing on single site and network configurations seem to work without issue. Please open an issue on github if you see differently.
+Testing on single site and network configurations seem to work without issue. Please open an issue on github if you see differently. Also: The activator script will not blindly activate the plugin on network/multisite setups. Instead it errors out with instructions of how to proceed.
 
 = I didn't install this =
 Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
