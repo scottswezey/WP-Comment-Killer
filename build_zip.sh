@@ -7,4 +7,4 @@ zip -r wp-comment-killer-w-installer.zip wp-comment-killer/
 
 echo ""
 echo "Generating new zip file w/out installer..."
-zip -r wp-comment-killer.zip wp-comment-killer/ -x manual*
+zip -r wp-comment-killer.zip wp-comment-killer/ -x wp-comment-killer/manual*
