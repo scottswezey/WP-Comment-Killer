@@ -36,6 +36,9 @@ Your web host may have. Check with them, and contact them for support. That said
 
 == Changelog ==
 
+= 1.2.0 =
+* We now show a banner in wp-admin and wp-admin/network when the plugin is active. This will help keep webmasters in the loop if this is installed by their web host.
+
 = 1.1.0 =
 * Significant improvements to quick activator script.
 
