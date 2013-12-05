@@ -1,66 +1,72 @@
 <!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>WP-Comment-Killer by scottswezey</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>WP-Comment-Killer</h1>
-        <p>A very simple WordPress plugin. Install to stop all comments and pingbacks. Uninstall to revert to normal settings.</p>
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-        <p class="view"><a href="https://github.com/scottswezey/WP-Comment-Killer">View the Project on GitHub <small>scottswezey/WP-Comment-Killer</small></a></p>
+  <title>WP-Comment-Killer</title>
+  <meta name="description" content="A very simple WordPress plugin. Install to stop all comments and pingbacks. Uninstall to revert to normal settings.">
 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-        <ul>
-          <li><a href="https://github.com/scottswezey/WP-Comment-Killer/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/scottswezey/WP-Comment-Killer/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/scottswezey/WP-Comment-Killer">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">WP-Comment-Killer</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A very simple WordPress plugin. Install to stop all comments and pingbacks. Uninstall to revert to normal settings.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/scottswezey/WP-Comment-Killer/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/scottswezey/WP-Comment-Killer/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/scottswezey/WP-Comment-Killer" class="code">View WP-Comment-Killer on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
 <a name="wp-comment-killer-in-a-nutshell" class="anchor" href="#wp-comment-killer-in-a-nutshell"><span class="octicon octicon-link"></span></a>WP-Comment-Killer in a nutshell</h1>
 
-<p>WP-Comment-Killer is a WordPress plugin that was built for when a site is under attack by comment spam bots. Installing and activating the plugin will ensure there are no more comments or pingbacks accepted by WordPress. It was originally designed for web hosting companies trying to combat so called "spam havens," or abandoned websites that are being overrun with bots posting spam. The plugin is great for this specific use case, but shaky for most others. Everything this plugin does can be achieved with WordPress itself.</p>
+<p>WP-Comment-Killer is a WordPress plugin that was built for when a site is under attack by comment spam bots. Installing the plugin will ensure there are no more comments or pingbacks accepted by WordPress. It was originally designed for web hosting companies trying to combat so called "spam havens," or abandoned websites that are being overrun with bots posting spam. The plugin is great for this specific use case, but shaky for most others. Everything this plugin does can be achieved with WordPress itself.</p>
 
 <h1>
 <a name="installing" class="anchor" href="#installing"><span class="octicon octicon-link"></span></a>Installing</h1>
 
 <ol>
-<li>Download the zip archive from <a href="https://github.com/scottswezey/WP-Comment-Killer">scottswezey/WP-Comment-Killer on GitHub</a>
+<li>Download the zip archive from <a href="https://raw.github.com/scottswezey/WP-Comment-Killer/master/wp-comment-killer.zip">scottswezey/WP-Comment-Killer on GitHub</a>
 </li>
-<li>Log into wp-admin, proceed to install a plugin as normal. Click the upload link. Upload the zip archive. Activate when done.</li>
-</ol><h2>
-<a name="manually" class="anchor" href="#manually"><span class="octicon octicon-link"></span></a>Manually</h2>
-
-<ol>
-<li>Download the zip archive from <a href="https://github.com/scottswezey/WP-Comment-Killer">scottswezey/WP-Comment-Killer on GitHub</a>
-</li>
-<li>Extract the archive under wp-content/plugins</li>
-<li>Activate the plugin via wp-admin, or manually by visiting the manual-force-activation.php script over the web. <em><strong>Warning:</strong></em> <strong>This script will enable the plugin on all network sites for network installs.</strong>
-</li>
+<li>Extract the archive and place wp-comment-killer.php into wp-content/mu-plugins (You may need to create this directory first).</li>
 </ol><h1>
 <a name="uninstalling" class="anchor" href="#uninstalling"><span class="octicon octicon-link"></span></a>Uninstalling</h1>
 
-<p>The script can only be deactivated through wp-admin. That said, it makes no changes to the DB, and can be safely renamed before removing it entirely.</p>
-
-<h2>
-<a name="didnt-install-this" class="anchor" href="#didnt-install-this"><span class="octicon octicon-link"></span></a>Didn't install this?</h2>
+<ol>
+<li>Delete wp-comment-killer.php from the mu-plugins folder. There is no need to deactivate it.</li>
+<li>Previous versions can only be deactivated through wp-admin. They should be deactivated and deleted via wp-admin.</li>
+</ol><h2>
+<a name="didnt-install-this-on-your-site" class="anchor" href="#didnt-install-this-on-your-site"><span class="octicon octicon-link"></span></a>Didn't install this on your site?</h2>
 
 <p>Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.</p>
 
 <h1>
 <a name="etc" class="anchor" href="#etc"><span class="octicon octicon-link"></span></a>Etc</h1>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Short version: MIT license
+Long version: See LICENSE file</p>
 
 <h2>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h2>
@@ -71,13 +77,26 @@
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h2>
 
 <p>Please open a ticket on the GitHub issue tracker: <a href="https://github.com/scottswezey/WP-Comment-Killer">https://github.com/scottswezey/WP-Comment-Killer</a></p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/scottswezey">scottswezey</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        </article>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/scottswezey" class="avatar"><img src="https://0.gravatar.com/avatar/386c9c5db31f9ddffb03caf06f0c74e3?d=https%3A%2F%2Fidenticons.github.com%2Fbf9560c068acb95a7a35efe1eca3135f.png&amp;r=x&amp;s=60" width="48" height="48"/></a> <a href="https://github.com/scottswezey">scottswezey</a> maintains <a href="https://github.com/scottswezey/WP-Comment-Killer">WP-Comment-Killer</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/scottswezey/WP-Comment-Killer/tarball/master" class="tar">tar</a><a href="https://github.com/scottswezey/WP-Comment-Killer/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
 </html>
