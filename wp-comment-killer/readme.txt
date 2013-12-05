@@ -12,29 +12,37 @@ Install to stop all comments and pingbacks. Uninstall to revert to normal.
 == Description ==
 Designed for use when a site is under attack by comment spam bots. Installing this plugin automatically disables all comments and pingbacks. There are no settings to configure.
 
-This plugin doesn't modify your database in any way. Disable or remove it to revert your site to normal comment functionality.
+This plugin doesn't modify your database in any way. Remove it to revert your site to normal comment functionality.
 
 == Installation ==
-1. Install via WordPress admin area.
-1. Or install manually by putting the files in the right place (plugin dir), then calling the manual-force-activation.php script over the web or via CLI with user level permissions.
+1. Place wp-comment-killer.php into wp-content/mu-plugins (you may need to create this folder first)
+
+== Uninstallation ==
+1. Delete wp-comment-killer.php
+2. Previous versions may have been installed as a normal plugin. In this case, it should be deactivated and removed via wp-admin.
 
 == Frequently Asked Questions ==
 = Why? =
 This is only intended for when a site is under attack by comment spam. No more comments will be accepted with the installed and active.
 
 = What if I never want to get comments? =
-You should configure your site correctly. This can help until you do that.
+You should configure your site correctly. Everything this plugin does can be achieved by configuring WordPress. This can help until you do that.
 
 = Help? =
 See https://github.com/scottswezey/WP-Comment-Killer -- Open an issue.
 
 = WP Network installs? =
-Testing on single site and network configurations seem to work without issue. Please open an issue on github if you see differently. Also: The activator script will not blindly activate the plugin on network/multisite setups. Instead it errors out with instructions of how to proceed.
+This plugin will affect all network sites. As the plugin is only intended as a temporary countermeasure, this is acceptable behavior. Please properly configure the blog(s) getting attacked with comment spam to not accept comments, then remove this plugin.
 
 = I didn't install this =
 Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
 
 == Changelog ==
+
+= 2.0.0 =
+* WP-Comment-Killer now intended for use with mu-plugins installation method.
+* manual-force-activation.php is deprecated.
+* Significant docs update for new (un)install.
 
 = 1.2.0 =
 * We now show a banner in wp-admin and wp-admin/network when the plugin is active. This will help keep webmasters in the loop if this is installed by their web host.

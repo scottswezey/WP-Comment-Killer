@@ -22,6 +22,8 @@
   	  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   	  SOFTWARE.
   */
+  
+  die('Use of this script is deprecated. Please us mu-plugins install method.');
 
   // Setup enviroment for plugin installation
   require( dirname(__FILE__) . '/../../../wp-load.php' );
