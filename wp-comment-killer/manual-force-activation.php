@@ -31,7 +31,7 @@
 
   // Actually activate the plugin
   if ( is_multisite() ) {
-    wp_die('This appears to be a multisite/network install. Remove or comment out line '.__LINE__.' if you wish to proceed.');
+    wp_die('This appears to be a multisite/network install. Remove or comment out the line after #'.__LINE__.' if you wish to proceed.');
     activate_plugin('wp-comment-killer/wp-comment-killer.php', '', true);
   } else {
     activate_plugin('wp-comment-killer/wp-comment-killer.php', '', false);

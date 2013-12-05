@@ -2,7 +2,7 @@
 Contributors: ScottSwezey
 Tags: Comments, Spam
 Requires at least: 3.5
-Tested up to: 3.7
+Tested up to: 3.7.1
 Stable tag: trunk
 License: MIT
 License URI: http://choosealicense.com/licenses/mit/
