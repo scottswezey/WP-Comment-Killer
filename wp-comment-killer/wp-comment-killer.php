@@ -43,7 +43,7 @@
   add_filter('pings_open', 'ss_wpck_return_false', 1000);
 
   function ss_wpck_comments_disabled_notice() {
-   printf('<div class="updated"><p>All commenting has been disabled by the WP-Comment-Killer plugin.</p></div>');
+   printf('<div class="updated"><p>All commenting has been disabled by the WP-Comment-Killer plugin in mu-plugins.</p></div>');
   }
   add_action('admin_notices', 'ss_wpck_comments_disabled_notice');
   add_action('network_admin_notices', 'ss_wpck_comments_disabled_notice');
