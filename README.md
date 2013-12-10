@@ -17,10 +17,11 @@ Your web host may have. Check with them, and contact them for support. That said
 
 ## License
 Short version: MIT license
+
 Long version: See LICENSE file
 
 ## Authors and Contributors
-@ScottSwezey of MDDHosting.com
+Scott Swezey
 
 ## Support or Contact
 Please open a ticket on the GitHub issue tracker: https://github.com/scottswezey/WP-Comment-Killer
