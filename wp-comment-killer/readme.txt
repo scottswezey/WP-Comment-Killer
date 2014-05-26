@@ -39,6 +39,9 @@ Your web host may have. Check with them, and contact them for support. That said
 
 == Changelog ==
 
+= 2.0.1 =
+* Removed manual-force-activation.php
+
 = 2.0.0 =
 * WP-Comment-Killer now intended for use with mu-plugins installation method.
 * manual-force-activation.php is deprecated.
