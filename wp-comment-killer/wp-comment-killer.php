@@ -3,11 +3,11 @@
 * Plugin Name: WP Comment Killer
 * Plugin URI: https://github.com/scottswezey/WP-Comment-Killer
 * Description: Install to stop all comments and pingbacks. Uninstall to revert to normal settings.
-* Version: 2.0.1
+* Version: 2.0.2
 * Author: Scott Swezey
 * License: MIT
 */
- 
+
 /* The MIT License (MIT)
 
 	  Copyright (c) 2013 Scott Swezey
@@ -30,8 +30,8 @@
 	  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	  SOFTWARE.
 */
- 
- 
+
+
   // Stop all comments and pings
   function ss_wpck_return_false() {
          return false;
@@ -43,7 +43,7 @@
   add_filter('pings_open', 'ss_wpck_return_false', 1000);
 
   function ss_wpck_comments_disabled_notice() {
-   printf('<div class="updated"><p>All commenting has been disabled by the WP-Comment-Killer plugin in mu-plugins.</p></div>');
+   printf('<div class="updated"><p>All commenting has been disabled by the WP-Comment-Killer plugin in mu-plugins. (<a href="https://github.com/scottswezey/WP-Comment-Killer" target="_blank">huh?</a>)</p></div>');
   }
   add_action('admin_notices', 'ss_wpck_comments_disabled_notice');
   add_action('network_admin_notices', 'ss_wpck_comments_disabled_notice');

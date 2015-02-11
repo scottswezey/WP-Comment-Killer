@@ -2,7 +2,7 @@
 Contributors: ScottSwezey
 Tags: Comments, Spam
 Requires at least: 3.5
-Tested up to: 3.8
+Tested up to: 4.1
 Stable tag: trunk
 License: MIT
 License URI: http://choosealicense.com/licenses/mit/
@@ -38,6 +38,11 @@ This plugin will affect all network sites. As the plugin is only intended as a t
 Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
 
 == Changelog ==
+
+= 2.0.2 =
+* Update to reflect compatibility with WordPress 4.1.
+* Update copyright date.
+* No other changes.
 
 = 2.0.1 =
 * Removed manual-force-activation.php
