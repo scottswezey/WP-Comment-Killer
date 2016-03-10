@@ -39,6 +39,10 @@ Your web host may have. Check with them, and contact them for support. That said
 
 == Changelog ==
 
+= 2.0.3 =
+* Bumped copyright license year.
+* Planning to check compatibility with current WP versions soon.
+
 = 2.0.2 =
 * Update to reflect compatibility with WordPress 4.1.
 * Update copyright date.
