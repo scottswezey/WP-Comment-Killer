@@ -1,0 +1,8 @@
+title: WP-Comment-Killer
+description: A very simple WordPress plugin. Install to stop all comments and pingbacks. Uninstall to revert to normal settings.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-time-machine
+
+gems:
+  - jekyll-mentions
