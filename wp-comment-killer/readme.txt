@@ -10,6 +10,8 @@ License URI: http://choosealicense.com/licenses/mit/
 Install to stop all comments and pingbacks. Uninstall to revert to normal.
 
 == Description ==
+I've not checked on or updated this project in some time. I have no idea if it works any more. Oct 29, 2017.
+
 Designed for use when a site is under attack by comment spam bots. Installing this plugin automatically disables all comments and pingbacks. There are no settings to configure.
 
 This plugin doesn't modify your database in any way. Remove it to revert your site to normal comment functionality.
