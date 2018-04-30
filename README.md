@@ -1,5 +1,5 @@
 # WP-Comment-Killer in a nutshell
-I've not checked on or updated this project in some time. I have no idea if it works any more. Oct 29, 2017.
+**This project is no longer needed in most cases. The project is no longer maintained.**
 
 WP-Comment-Killer is a WordPress plugin that was built for when a site is under attack by comment spam bots. Installing the plugin will ensure there are no more comments or pingbacks accepted by WordPress. It was originally designed for web hosting companies trying to combat so called "spam havens," or abandoned websites that are being overrun with bots posting spam. The plugin is great for this specific use case, but shaky for most others. Everything this plugin does can be achieved with WordPress itself.
 
@@ -20,10 +20,7 @@ Your web host may have. Check with them, and contact them for support. That said
 ## License
 Short version: MIT license
 
-Long version: See LICENSE file
+Long version: See `LICENSE` file
 
 ## Authors and Contributors
-Scott Swezey
-
-## Support or Contact
-Please open a ticket on the GitHub issue tracker: https://github.com/scottswezey/WP-Comment-Killer
+[Scott Swezey](https://github.com/scottswezey)

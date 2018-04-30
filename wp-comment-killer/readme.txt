@@ -10,7 +10,7 @@ License URI: http://choosealicense.com/licenses/mit/
 Install to stop all comments and pingbacks. Uninstall to revert to normal.
 
 == Description ==
-I've not checked on or updated this project in some time. I have no idea if it works any more. Oct 29, 2017.
+**This project is no longer needed in most cases. The project is no longer maintained.**
 
 Designed for use when a site is under attack by comment spam bots. Installing this plugin automatically disables all comments and pingbacks. There are no settings to configure.
 
@@ -40,6 +40,9 @@ This plugin will affect all network sites. As the plugin is only intended as a t
 Your web host may have. Check with them, and contact them for support. That said, this is very easy to disable and remove if you've fixed your spam bot issue.
 
 == Changelog ==
+
+= April 29, 2018 =
+* Project officially abandoned.
 
 = 2.0.3 =
 * Bumped copyright license year.
